@@ -6,16 +6,16 @@ class Main {
     int num;
 
     System.out.println("Please enter a whole number to count down or up from:");
-    num = s.nextInt();
+    num = s.nextInt(); //initializing the countdown number
     System.out.println("The countdown will start from " +num);
-    if (num > 0) {
-      while (num >=0){
+    if (num > 0) { //this sets the rules for the number greater than 0
+      while (num >=0){ //this is the countdown
         System.out.println(num);
         num --;
       } 
     }
-      else if (num<0) {
-        while (num <=0){
+      else if (num<0) { //for values less than 0
+        while (num <=0){ //this is the count up
         System.out.println(num);
         num ++;
         }
@@ -23,11 +23,6 @@ class Main {
       else {
         System.out.println("This is a short countdown! \n" + num);
       }
-  
-      
-
-      
-    
   
   System.out.println("Blast Off!");
   }
